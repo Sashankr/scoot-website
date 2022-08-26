@@ -1,20 +1,36 @@
-import "../styles/Navbar.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import LogoIcon from "../assets/logo.svg";
 import HamburgerIcon from "../assets/icons/hamburger.svg";
-import { Link } from "react-router-dom";
+import CloseIcon from "../assets/icons/close.svg";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
+  const handleTogglerClick = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <>
       <header className="navbar-container">
         <nav className="navbar">
-          <div className="navbar-toggler">
-            <img src={HamburgerIcon} alt="menu toggler for mobile" />
+          <div
+            className={`navbar-toggler ${isSidebarOpen ? "close" : "open"}`}
+            onClick={() => handleTogglerClick()}
+          >
+            <img
+              src={isSidebarOpen ? CloseIcon : HamburgerIcon}
+              alt={isSidebarOpen ? "close menu" : "open menu"}
+            />
           </div>
           <img src={LogoIcon} alt="scoot logo" />
         </nav>
       </header>
-      <div className="navbar-mobile-menu">
+      <div
+        className={`navbar-mobile-menu ${isSidebarOpen ? "open" : "closed"}`}
+      >
         <ul className="navbar-mobile-menu-list">
           <li className="navbar-mobile-menu-list-item">
             <Link to="/">About</Link>

@@ -23,6 +23,14 @@
 .navbar-toggler img {
   width: 20px;
   height: 16px;
+  cursor: pointer;
+}
+
+.navbar-toggler.close img {
+  width: 20px;
+  height: 19px;
+  cursor: pointer;
+  transition: 0.4s ease;
 }
 
 .navbar-toggler span:last-child {
@@ -37,6 +45,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: fixed;
+  top: 73px;
+  transition: 0.4s ease;
+}
+
+.navbar-mobile-menu.closed {
+  left: -256px;
+}
+.navbar-mobile-menu.open {
+  left: 0px;
 }
 
 .navbar-mobile-menu-list {
@@ -63,4 +81,5 @@
   outline: unset;
   border: unset;
   background: var(--color-secondary);
+  cursor: pointer;
 }
