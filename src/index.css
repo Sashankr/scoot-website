@@ -3,3 +3,11 @@
   margin: unset;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-secondary: #fcb72b;
+}

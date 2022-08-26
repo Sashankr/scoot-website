@@ -1,0 +1,33 @@
+/* Styles for mobile 0px to 768px */
+
+.navbar-container {
+  position: sticky;
+  top: 0;
+  padding: 22px 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.navbar-toggler {
+  position: absolute;
+  left: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-toggler span {
+  display: block;
+  background: var(--color-secondary);
+  width: 19.69px;
+  height: 3.69px;
+  margin-bottom: 3px;
+}
+
+.navbar-toggler span:last-child {
+  margin-bottom: 0;
+}
