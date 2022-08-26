@@ -16,8 +16,13 @@
 .navbar-toggler {
   position: absolute;
   left: 32px;
-  top: 75%;
-  transform: translateY(-75%);
+  bottom: 2px;
+  height: 16px;
+}
+
+.navbar-toggler img {
+  width: 20px;
+  height: 16px;
 }
 
 .navbar-toggler span:last-child {
