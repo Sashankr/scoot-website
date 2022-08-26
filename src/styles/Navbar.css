@@ -16,16 +16,8 @@
 .navbar-toggler {
   position: absolute;
   left: 32px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.navbar-toggler span {
-  display: block;
-  background: var(--color-secondary);
-  width: 19.69px;
-  height: 3.69px;
-  margin-bottom: 3px;
+  top: 75%;
+  transform: translateY(-75%);
 }
 
 .navbar-toggler span:last-child {
