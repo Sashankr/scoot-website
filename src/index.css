@@ -8,6 +8,15 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "SpaceMono-Bold";
+  src: url(./assets/fonts/SpaceMono-Bold.ttf);
+}
+
 :root {
+  --color-primary: #333a44;
   --color-secondary: #fcb72b;
+  --font-primary: "SpaceMono-Bold";
+  --color-light: #fff;
+  --color-light-text: #e5ecf4;
 }

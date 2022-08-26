@@ -28,3 +28,39 @@
 .navbar-toggler span:last-child {
   margin-bottom: 0;
 }
+
+.navbar-mobile-menu {
+  padding: 64px 32px 24px 32px;
+  background: var(--color-primary);
+  width: 256px;
+  height: calc(100vh - 73px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-mobile-menu-list {
+  list-style-type: none;
+}
+
+.navbar-mobile-menu-list-item {
+  margin-bottom: 24px;
+}
+
+.navbar-mobile-menu-list-item a {
+  font-family: var(--font-primary);
+  text-decoration: none;
+  color: var(--color-light-text);
+}
+
+.navbar-mobile-menu-action-button {
+  font-family: var(--font-primary);
+  color: var(--color-light);
+  font-size: 15px;
+  line-height: 25px;
+  padding: 14px 0;
+  border-radius: 0;
+  outline: unset;
+  border: unset;
+  background: var(--color-secondary);
+}
