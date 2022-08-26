@@ -42,7 +42,10 @@ const Navbar = () => {
             <Link to="/">Careers</Link>
           </li>
         </ul>
-        <button className="navbar-mobile-menu-action-button">
+        <button
+          onClick={() => handleTogglerClick()}
+          className="navbar-mobile-menu-action-button"
+        >
           Get Scootin
         </button>
       </div>
