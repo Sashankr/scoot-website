@@ -6,7 +6,7 @@ import CloseIcon from "../assets/icons/close.svg";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const handleTogglerClick = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -49,6 +49,9 @@ const Navbar = () => {
           Get Scootin
         </button>
       </div>
+      <div
+        className={`toggle-overlay ${isSidebarOpen ? "open" : "closed"}`}
+      ></div>
     </>
   );
 };

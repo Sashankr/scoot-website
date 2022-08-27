@@ -83,3 +83,14 @@
   background: var(--color-secondary);
   cursor: pointer;
 }
+
+.toggle-overlay {
+  height: 0;
+  background: unset;
+  transition: 0.4s ease;
+}
+
+.toggle-overlay.open {
+  background: rgba(0, 0, 0, 0.7);
+  height: calc(100vh - 73px);
+}
