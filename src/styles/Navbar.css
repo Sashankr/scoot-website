@@ -85,6 +85,7 @@
   border: unset;
   background: var(--color-secondary);
   cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 .toggle-overlay {
