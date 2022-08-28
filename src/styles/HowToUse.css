@@ -1,0 +1,35 @@
+/* Styles for mobile 0px to 768px */
+
+.how-to-use {
+  padding: 0 2rem;
+  margin: 120px 0;
+  text-align: center;
+}
+
+.how-to-use-section {
+  margin-bottom: 48px;
+}
+
+.how-to-use-section:last-child {
+  margin-bottom: 0;
+}
+
+.how-to-use-section img {
+  margin-bottom: 24px;
+  width: 56px;
+  height: 56px;
+}
+
+.how-to-use-section h2 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  line-height: 28px;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.how-to-use-section p {
+  font-family: var(--font-secondary);
+  color: var(--color-description);
+  font-size: 15px;
+}
