@@ -47,6 +47,7 @@
   justify-content: space-between;
   position: fixed;
   top: 73px;
+  z-index: 2;
   transition: 0.4s ease;
 }
 
@@ -87,10 +88,15 @@
 .toggle-overlay {
   height: 0;
   background: unset;
+  position: fixed;
+  left: 0;
   transition: 0.4s ease;
+  width: 0;
 }
 
 .toggle-overlay.open {
   background: rgba(0, 0, 0, 0.7);
   height: calc(100vh - 73px);
+  width: 100vw;
+  z-index: 1;
 }
