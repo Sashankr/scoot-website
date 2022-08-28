@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
+
 * {
   padding: unset;
   margin: unset;
@@ -8,15 +10,15 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: "SpaceMono-Bold";
-  src: url(./assets/fonts/SpaceMono-Bold.ttf);
+body {
+  overflow-x: hidden;
 }
 
 :root {
   --color-primary: #333a44;
   --color-secondary: #fcb72b;
-  --font-primary: "SpaceMono-Bold";
+  --font-primary: "Space Mono", monospace;
+  --font-secondary: "Lexend Deca", sans-serif;
   --color-light: #fff;
   --color-light-text: #e5ecf4;
 }

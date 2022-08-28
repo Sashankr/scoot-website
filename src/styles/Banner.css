@@ -1,0 +1,52 @@
+/* Styles for mobile 0px to 768px */
+
+.banner {
+  text-align: center;
+  height: calc(100vh - 73px);
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  background-image: url("../assets/images/home-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-title {
+  margin-top: 115px;
+  font-size: 40px;
+  font-family: var(--font-primary);
+  line-height: 40px;
+  margin-bottom: 29px;
+  color: var(--color-light);
+}
+
+.banner-description {
+  font-family: var(--font-secondary);
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 29px;
+  color: var(--color-light);
+}
+
+.banner-action {
+  font-family: var(--font-primary);
+  color: var(--color-light);
+  font-size: 15px;
+  line-height: 25px;
+  padding: 14px 0;
+  border-radius: 0;
+  outline: unset;
+  border: unset;
+  background: var(--color-secondary);
+  cursor: pointer;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.banner-right-arrow {
+  position: absolute;
+  bottom: 34px;
+  left: 0;
+  transform: translateX(-320px);
+}
