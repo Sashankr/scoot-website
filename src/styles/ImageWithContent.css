@@ -3,3 +3,35 @@
 .image-with-content {
   margin: 120px 0;
 }
+
+.image-with-content-thumbnail-container {
+  margin-bottom: 56px;
+}
+
+.image-with-content-title {
+  margin-bottom: 32px;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  line-height: 32px;
+  font-size: 2rem;
+}
+
+.image-with-content-description {
+  margin-bottom: 2rem;
+  line-height: 25px;
+  color: var(--color-description);
+  font-family: var(--font-secondary);
+}
+
+.image-with-content-button {
+  font-family: var(--font-primary);
+  background: var(--color-secondary);
+  color: var(--color-light);
+  width: 180px;
+  height: 14px 0;
+  font-size: 15px;
+  line-height: 25px;
+  border: unset;
+  outline: unset;
+  cursor: pointer;
+}
