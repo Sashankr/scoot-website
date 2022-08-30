@@ -2,10 +2,22 @@
 
 .image-with-content {
   margin: 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .image-with-content-thumbnail-container {
   margin-bottom: 56px;
+  position: relative;
+}
+
+.image-with-content-thumbnail-container img.image-with-content-thumbnail {
+  width: 311px;
+  height: 311px;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 .image-with-content-title {
@@ -14,6 +26,25 @@
   color: var(--color-primary);
   line-height: 32px;
   font-size: 2rem;
+  text-align: center;
+  padding: 0 32px;
+}
+
+.left-arrow-overlay {
+  position: absolute;
+  bottom: 0;
+  left: -0.5rem;
+}
+
+.left-arrow-overlay.top {
+  bottom: unset;
+  top: 0;
+  left: 6rem;
+}
+
+.right-arrow-overlay {
+  position: absolute;
+  right: 6rem;
 }
 
 .image-with-content-description {
@@ -21,6 +52,8 @@
   line-height: 25px;
   color: var(--color-description);
   font-family: var(--font-secondary);
+  text-align: center;
+  padding: 0 32px;
 }
 
 .image-with-content-button {
@@ -28,7 +61,7 @@
   background: var(--color-secondary);
   color: var(--color-light);
   width: 180px;
-  height: 14px 0;
+  padding: 14px 0;
   font-size: 15px;
   line-height: 25px;
   border: unset;
