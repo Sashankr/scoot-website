@@ -14,6 +14,7 @@ function App() {
       {homeImageWithContentSection.map((data) => {
         return (
           <ImageWithContent
+            key={data.id}
             arrowIconDirection={data.arrowIconDirection}
             thumbnail={data.thumbnail}
             title={data.title}
