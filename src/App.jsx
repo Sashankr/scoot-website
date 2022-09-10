@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import FooterBanner from "./components/FooterBanner";
 import HowToUse from "./components/HowToUse";
 import ImageWithContent from "./components/ImageWithContent";
@@ -27,6 +28,7 @@ function App() {
         );
       })}
       <FooterBanner />
+      <Footer />
     </div>
   );
 }

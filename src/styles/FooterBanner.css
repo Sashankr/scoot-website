@@ -1,6 +1,6 @@
 .footer-banner {
   background-image: url(/src/assets/patterns/semi-circles.svg);
-  background-color: var(--color-primary);
+  background-color: var(--color-dark-gray);
   background-repeat: repeat no-repeat;
   background-position: -71% 190px;
   padding: 88px 0;

@@ -1,0 +1,22 @@
+.footer {
+  background: var(--color-primary);
+  padding: 64px 0 88px;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-bottom: 41px;
+}
+
+.footer-logo-list a {
+  color: var(--color-light);
+  font-family: var(--font-primary);
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--color-description);
+  text-decoration: none;
+}
+
+.footer-logo-list {
+  margin-bottom: 1rem;
+}
