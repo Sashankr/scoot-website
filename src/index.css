@@ -25,10 +25,6 @@ body {
   --color-description: #939caa;
 }
 
-.container {
-  padding: 0 32px;
-}
-
 svg {
   font-family: var(--font-primary);
 }

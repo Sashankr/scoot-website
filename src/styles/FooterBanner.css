@@ -24,6 +24,10 @@
   margin-right: 13px;
 }
 
+.container {
+  padding: 0 32px;
+}
+
 @media (min-width: 768px) {
   .footer-banner {
     padding: 63px 0;
