@@ -14,10 +14,14 @@
   margin-bottom: 0;
 }
 
-.how-to-use-section img {
+.how-to-use-section img.icon {
   margin-bottom: 24px;
   width: 56px;
   height: 56px;
+}
+
+.how-to-use-section img.line {
+  display: none;
 }
 
 .how-to-use-section h2 {
@@ -32,4 +36,33 @@
   font-family: var(--font-secondary);
   color: var(--color-description);
   font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .how-to-use-section {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 97px;
+    margin-bottom: 74px;
+  }
+
+  .how-to-use-section img.icon {
+    margin-right: 79px;
+    width: 96px;
+    height: 96px;
+  }
+
+  .how-to-use-section .content {
+    width: 398px;
+    text-align: left;
+  }
+  .how-to-use-section img.line {
+    display: block;
+    position: absolute;
+    left: 43px;
+    transform: rotate(90deg);
+    top: -26px;
+    z-index: -1;
+  }
 }
