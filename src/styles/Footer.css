@@ -32,3 +32,32 @@
 .footer-socials img:last-child {
   margin-right: 0;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 36px 40px 36px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-links {
+    display: flex;
+  }
+
+  .footer-logo {
+    margin-bottom: 0;
+  }
+
+  .footer-logo-list-container {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 60px;
+  }
+  .footer-logo-list {
+    margin-bottom: 0;
+    margin-right: 2rem;
+  }
+}

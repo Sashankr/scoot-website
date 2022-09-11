@@ -9,7 +9,7 @@ import InstagramLogo from "../assets/icons/instagram.svg";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div>
+      <div className="footer-links">
         <div className="footer-logo">
           <LightLogo />
         </div>
