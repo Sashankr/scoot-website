@@ -23,3 +23,24 @@
 .footer-banner-button {
   margin-right: 13px;
 }
+
+@media (min-width: 768px) {
+  .footer-banner {
+    padding: 63px 0;
+    background-position: -160px 190px;
+  }
+
+  .footer-banner-container {
+    justify-content: center;
+  }
+
+  .footer-banner-title {
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: -2px;
+  }
+
+  .container {
+    padding: 0 155px;
+  }
+}
