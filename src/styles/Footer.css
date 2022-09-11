@@ -20,3 +20,15 @@
 .footer-logo-list {
   margin-bottom: 1rem;
 }
+
+.footer-logo-list-container {
+  margin-bottom: 85px;
+}
+
+.footer-socials img {
+  margin-right: 24px;
+}
+
+.footer-socials img:last-child {
+  margin-right: 0;
+}
