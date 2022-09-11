@@ -25,7 +25,23 @@ const Navbar = () => {
               alt={isSidebarOpen ? "close menu" : "open menu"}
             />
           </div>
-          <img src={LogoIcon} alt="scoot logo" />
+          <div className="navbar-content">
+            <img src={LogoIcon} alt="scoot logo" />
+            <ul className="navbar-menu-list">
+              <li className="navbar-menu-list-item">
+                <Link to="/">About</Link>
+              </li>
+              <li className="navbar-menu-list-item">
+                <Link to="/">Location</Link>
+              </li>
+              <li className="navbar-menu-list-item">
+                <Link to="/">Careers</Link>
+              </li>
+            </ul>
+            <button className="navbar-menu-action-button desktop">
+              Get Scootin
+            </button>
+          </div>
         </nav>
       </header>
       <div
@@ -44,7 +60,7 @@ const Navbar = () => {
         </ul>
         <button
           onClick={() => handleTogglerClick()}
-          className="navbar-mobile-menu-action-button"
+          className="navbar-menu-action-button"
         >
           Get Scootin
         </button>
