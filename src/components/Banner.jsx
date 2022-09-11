@@ -1,6 +1,8 @@
 import React from "react";
 import { homeBannerContent } from "../helpers/mock";
 import RightArrowPattern from "../assets/patterns/right-arrow.svg";
+import WhiteCirclePattern from "../assets/patterns/white-circles.svg";
+
 import "../styles/Banner.css";
 
 const Banner = () => {
@@ -19,6 +21,11 @@ const Banner = () => {
         className="banner-right-arrow"
         src={RightArrowPattern}
         alt="right arrow,used for filler"
+      />
+      <img
+        className="white-circle-pattern"
+        src={WhiteCirclePattern}
+        alt="white circles,used for filler"
       />
     </div>
   );

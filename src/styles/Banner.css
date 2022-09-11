@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow-x: hidden;
 }
 
 .banner-title {
@@ -49,4 +50,37 @@
   bottom: 34px;
   left: 0;
   transform: translateX(-320px);
+}
+
+.white-circle-pattern {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    background-image: url("../assets/images/home-hero-desktop.jpg");
+    background-position: right;
+    justify-content: center;
+    padding: 0 97px;
+  }
+  .banner-title {
+    margin-top: 0;
+    font-size: 56px;
+    line-height: 58px;
+    margin-bottom: 24px;
+  }
+  .banner-description {
+    margin-bottom: 32px;
+  }
+
+  .banner-right-arrow {
+    transform: translateX(-108px);
+  }
+  .white-circle-pattern {
+    display: block;
+    width: 234px;
+    position: absolute;
+    right: -30px;
+    bottom: 45px;
+  }
 }
