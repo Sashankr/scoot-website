@@ -1,6 +1,8 @@
 import React from "react";
 import LeftArrow from "../assets/patterns/left-downward-arrow.svg";
 import RightArrow from "../assets/patterns/right-arrow.svg";
+import RightSemiCircle from "../assets/patterns/circle-right.svg";
+import LeftSemiCircle from "../assets/patterns/circle-left.svg";
 import "../styles/ImageWithContent.css";
 
 const ImageWithContent = ({
@@ -31,6 +33,19 @@ const ImageWithContent = ({
             className="right-arrow-overlay"
             src={RightArrow}
             alt="right-arrow-overlay"
+          />
+        )}
+        {arrowIconDirection === "left" ? (
+          <img
+            className="right-semicircle"
+            src={RightSemiCircle}
+            alt="right-semicircle"
+          />
+        ) : (
+          <img
+            className="left-semicircle"
+            src={LeftSemiCircle}
+            alt="left-semicircle"
           />
         )}
       </div>

@@ -69,3 +69,47 @@
   outline: unset;
   cursor: pointer;
 }
+
+.left-semicircle,
+.right-semicircle {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .image-with-content {
+    position: relative;
+  }
+
+  .image-with-content-thumbnail-container img.image-with-content-thumbnail {
+    width: 445px;
+    height: 445px;
+  }
+
+  .left-arrow-overlay {
+    left: -6.8rem;
+  }
+  .right-arrow-overlay {
+    right: 16rem;
+  }
+  .image-with-content-thumbnail-container {
+    margin-bottom: 64px;
+  }
+  .left-semicircle {
+    display: block;
+    position: absolute;
+    left: -42%;
+    top: 0;
+  }
+  .right-semicircle {
+    display: block;
+    position: absolute;
+    right: -42%;
+    top: 0;
+    z-index: -1;
+  }
+  .left-arrow-overlay.top {
+    bottom: unset;
+    top: 15%;
+    left: 16rem;
+  }
+}
